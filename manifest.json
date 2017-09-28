@@ -1,0 +1,83 @@
+{
+  // Required
+  // "app": {
+  //   "background": {
+  //     // Optional
+  //     "scripts": ["main.js"]
+  //   }
+  // },
+  "manifest_version": 2,
+  "name": "gitReader",
+  "version": "0.0.1",
+
+  // Recommended
+  // "default_locale": "en",
+  "description": "A plain text description",
+  "icons": {
+    "16":"img/favicon-16x16.png",
+    "48":"img/favicon-32x32.png",
+    "128":"img/favicon-180x180.png"
+  },
+  "browser_action":{
+    "default_title":"GitReader",
+    "default_popup":"index.html"
+  },
+  // Optional
+  // "action_handlers": ["new_note"],
+  "author": "xxf",
+  // "automation": "xxf",
+  // "bluetooth": {
+  //   "uuids": ["1105", "1006"]
+  // },
+  "commands": {},
+  // "current_locale": ,
+  // "event_rules": [{}],
+  "externally_connectable": {
+    "matches": ["*://*.example.com/*"]
+  },
+  // "file_handlers": {},
+  "file_system_provider_capabilities": {
+    "configurable": true,
+    "multiple_mounts": true,
+    "source": "network"
+  },
+  // "import": [{"id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}],
+  // "key": "publicKey",
+  // "kiosk": {
+    // "always_update": ,
+    // "required_platform_version":
+  // },
+  // "kiosk_enabled": true,
+  // "kiosk_only": true,
+  // "kiosk_secondary_apps": ,
+  // "minimum_chrome_version": "versionString",
+  "nacl_modules": [],
+  // "oauth2": ,
+  "offline_enabled": false,
+  "optional_permissions": ["tabs"],
+  "permissions": ["tabs"],
+  // "platforms": ,
+  "requirements": {},
+  "sandbox": [],
+  "short_name": "Short Name",
+  // "signature": ,
+  // "sockets": {
+  //   "tcp": {
+  //     "connect": "*"
+  //   },
+  //   "udp": {
+  //     "send": "*"
+  //   }
+  // },
+  // "storage": {
+    // "managed_schema": "schema.json"
+  // },
+  // "system_indicator": ,
+  // "update_url": "http://path/to/updateInfo.xml",
+  // "url_handlers": {},
+  // "usb_printers": {
+  //   "filters": []
+  // },
+  "version_name": "pangu"
+  // "webview": {}
+}
