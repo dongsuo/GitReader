@@ -6,7 +6,7 @@
   3. 点击加载已解压的扩展程序，选择解压出来的文件夹
 - Warning：
   1. 考虑到安全问题，本项目没有提供Github API的授权码，因此在本地使用无法调用Github API
-  2. 如需使用，可以在https://github.com/settings/developers 页面中申请你自己的授权码(文档：https://help.github.com/articles/authorizing-oauth-apps/)，然后将其添加指 config.js 文件中并保存：
+  2. 如需使用，可以在https://github.com/settings/developers 页面中申请你自己的授权码(文档：https://help.github.com/articles/authorizing-oauth-apps/ )，然后将其添加指 config.js 文件中并保存：
   
 
 ```
